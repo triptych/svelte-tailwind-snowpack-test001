@@ -1,7 +1,9 @@
 <script>
 	import TailwindStyles from './TailwindStyles.svelte';
+	import * as rxjs from 'rxjs';
 	
 	const message = 'Learn Svelte';
+	console.log(rxjs.of(1, 2, 3));
 </script>
 
 <style>
@@ -24,6 +26,7 @@
 		<p>
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
+		<p>Another line of text</p>
 		<a
 			class="text-orange-500"
 			href="https://svelte.dev"
